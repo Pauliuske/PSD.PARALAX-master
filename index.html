@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PSD.PARALAX.CSS Animations.JS.jQuery</title>
+        <!-- reikalinga kad prisitaikantis dizainas veiktu tvarkingai -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+        <!-- galimos klaidos -->
+        <!-- blogas kelias iki failo -->
+        <!-- "/" ne i ta puse -->
+        <!-- neuzdarete ">" -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <!--FONT FAMILY-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+        <!--SlickNav CSS-->
+        <link rel="stylesheet" href="css/slicknav.min.css">
+        <!--Pace plugin theme-->
+        <link rel="stylesheet" href="css/pace-theme.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/animation-delay.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/default.css">
+        <!-- !!!! VISSA MANO CSS failas pats zemiausias -->
+    </head>
+
+    <body id="main">
+      <div class="entire-content"> <!--page loader fix-->
+                   <!-- HEADER -->
+      <header><!-- class="secondary-dark-blue-bg">-->
+        <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <a class="logo animated pulse infinite " href="#"> <img src="img/logo.png" alt="logo"> </a>
+                        <nav class="animated fadeInRight">
+                          <ul class="menu" id="menu">
+                            <li> <a href="#slider"> Home </a> </li>
+                            <li> <a href="#services"> Services </a> </li>
+                            <li> <a href="#Our"> Our Works </a> </li>
+                            <li> <a href="#Team"> Team </a> </li>
+                            <li> <a href="#Testimonials"> Testimonials </a> </li>
+                            <li> <a href="#Contact"> Contact </a> </li>
+                          </ul>
+                        </nav>
+                        <div class="clearfix"></div>
+                  </div>
+              </div>
+          </div>
+      </header>
+                <!-- SLIDER -->
+
+<section class="slider" id="slider">
+  <ul class="slider-carousel" id="slider-carousel">
+    <li class="img1">
+      <h1>Welcome to <span class="primary">Corporate</span> </h1>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+      <a class="primary-bg cta1" href="#"> Get start</a> <a class="secondary-sky-blue-bg cta2" href="#"> Contact Us</a>
+    </li>
+    <li class="img2">
+      <h1>We are <span class="primary">Developers</span> </h1>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+      <a class="primary-bg cta1" href="#"> Get start</a> <a class="secondary-sky-blue-bg cta2" href="#"> Contact Us</a>
+    </li>
+    <li class="img3">
+      <h1>We make <span class="primary">Awesome Themes</span> </h1>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+      <a class="primary-bg cta1" href="#"> Get start</a> <a class="secondary-sky-blue-bg cta2" href="#"> Contact Us</a>
+    </li>
+  </ul>
+</section>
+
+                <!--- Article -->
+<article class="article-padding no-padding" id="services">
+  <div class="services-header animation" data-animation="fadeIn">
+    <h1>Services</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+  </div>
+  <div class="services-content animation" data-animation="fadeIn">
+    <div class="container">
+     <div class="row animation" data-animation="fadeInLeft">
+      <div class="col-md-4">
+        <p> <img src="img/icons/1.png" alt=""> </p>
+        <h3>Web Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
+      <div class="col-md-4">
+        <p> <img src="img/icons/2.png" alt=""> </p>
+        <h3>Graphic Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
+      <div class="col-md-4">
+        <p> <img src="img/icons/3.png" alt=""> </p>
+        <h3>HTML/CSS</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
+     </div>
+     <br>
+     <div class="row animation" data-animation="fadeInRight">
+      <div class="col-md-4">
+        <p> <img src="img/icons/4.png" alt=""> </p>
+        <h3>Wordpress</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
+      <div class="col-md-4">
+        <p> <img src="img/icons/5.png" alt=""> </p>
+        <h3>Theme development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
+      <div class="col-md-4">
+        <p> <img src="img/icons/6.png" alt=""> </p>
+        <h3>Unlimited Support</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
+     </div>
+   </div>
+  </div>
+</article>
+
+<!-- ARTICLE OUR WORK -->
+<article class="portfolio article-padding" id="Our">
+  <div class="portfolio-header animation" data-animation="flipInX">
+    <h1 class="white">Our Works</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+</div>
+
+<div class="container">
+  <div class="row animation" data-animation="zoomIn">
+   <ul class="portfolio-carousel">
+
+    <li>
+      <div class="inner-content">
+        <img src="img/portfolio/project1.png" alt="">
+        <div class="overlay-content">
+          <h3>Environment Website</h3>
+          <p> <a href="#"> Click Here </a> For Details </p>
+        </div>
+      </div>
+    </li>
+
+
+    <li>
+      <div class="inner-content">
+        <img src="img/portfolio/project2.png" alt="">
+        <div class="overlay-content">
+          <h3>Environment Website</h3>
+          <p> <a href="#"> Click Here </a> For Details </p>
+        </div>
+      </div>
+    </li>
+
+
+    <li>
+      <div class="inner-content">
+        <img src="img/portfolio/project3.png" alt="">
+        <div class="overlay-content">
+          <h3>Environment Website</h3>
+          <p> <a href="#"> Click Here </a> For Details </p>
+        </div>
+      </div>
+    </li>
+
+    <li>
+
+      <div class="inner-content">
+        <img src="img/portfolio/project4.png" alt="">
+        <div class="overlay-content">
+          <h3>Environment Website</h3>
+          <p> <a href="#"> Click Here </a> For Details </p>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="inner-content">
+        <img src="img/portfolio/project2.png" alt="">
+        <div class="overlay-content">
+          <h3>Environment Website</h3>
+          <p> <a href="#"> Click Here </a> For Details </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="inner-content">
+        <img src="img/portfolio/project1.png" alt="">
+        <div class="overlay-content">
+          <h3>Environment Website</h3>
+          <p> <a href="#"> Click Here </a> For Details </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="inner-content">
+        <img src="img/portfolio/project4.png" alt="">
+        <div class="overlay-content">
+          <h3>Environment Website</h3>
+          <p> <a href="#"> Click Here </a> For Details </p>
+        </div>
+      </div>
+    </li>
+   </ul>
+   <ul class="portfolio-nav">
+     <li id="preview"> &lt; </li>
+     <li id="next"> &gt; </li>
+   </ul>
+  </div>
+ </div>
+</article>
+
+<!--- - - - - - -
+ARTICLE OUR TEAM
+------------------->
+<article class="team article-padding" id="Team">
+  <div class="team-header animation" data-animation="flash">
+    <h1 >Our Team</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+</div>
+
+<div class="container">
+  <div class="row animation" data-animation="zoomInDown">
+   <ul class="team-carousel">
+    <li>
+      <div class="inner-content">
+        <img src="img/team/member1.png" alt="">
+        <div class="overlay-content">
+          <p class="name primary bold"> John Doe </p>
+          <p class="position secondary-sky-blue bold"> Web Developer </p>
+          <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. </p>
+          <ul class="member-social-links">
+          <a href="#"> <li class="web-img"> <img src="img/web-icons/twitter.png" alt=""> </li> </a>
+          <a href="#"> <li class="web-img"> <img src="img/web-icons/facebook.png" alt=""> </li> </a>
+          <a href="#"> <li class="web-img"> <img src="img/web-icons/linkedin.png" alt=""> </li> </a>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="inner-content">
+        <img src="img/team/member2.png" alt="">
+        <div class="overlay-content">
+          <p class="name primary bold"> John Doe </p>
+          <p class="position secondary-sky-blue bold"> Web Developer </p>
+          <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. </p>
+          <ul class="member-social-links">
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/twitter.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/facebook.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/linkedin.png" alt=""> </li> </a>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="inner-content">
+        <img src="img/team/member3.png" alt="">
+        <div class="overlay-content">
+          <p class="name primary bold"> John Doe </p>
+          <p class="position secondary-sky-blue bold"> Web Developer </p>
+          <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. </p>
+          <ul class="member-social-links">
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/twitter.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/facebook.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/linkedin.png" alt=""> </li> </a>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="inner-content">
+        <img src="img/team/member4.png" alt="">
+        <div class="overlay-content">
+          <p class="name primary bold"> John Doe </p>
+          <p class="position secondary-sky-blue bold"> Web Developer </p>
+          <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. </p>
+          <ul class="member-social-links">
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/twitter.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/facebook.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/linkedin.png" alt=""> </li> </a>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="inner-content">
+        <img src="img/team/member2.png" alt="">
+        <div class="overlay-content">
+          <p class="name primary bold"> John Doe </p>
+          <p class="position secondary-sky-blue bold"> Web Developer </p>
+          <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. </p>
+          <ul class="member-social-links">
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/twitter.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/facebook.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/linkedin.png" alt=""> </li> </a>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="inner-content">
+        <img src="img/team/member1.png" alt="">
+        <div class="overlay-content">
+          <p class="name primary bold"> John Doe </p>
+          <p class="position secondary-sky-blue bold"> Web Developer </p>
+          <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. </p>
+          <ul class="member-social-links">
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/twitter.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/facebook.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/linkedin.png" alt=""> </li> </a>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="inner-content">
+        <img src="img/team/member4.png" alt="">
+        <div class="overlay-content">
+          <p class="name primary bold"> John Doe </p>
+          <p class="position secondary-sky-blue bold"> Web Developer </p>
+          <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. </p>
+          <ul class="member-social-links">
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/twitter.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/facebook.png" alt=""> </li> </a>
+            <a href="#"> <li class="web-img"> <img src="img/web-icons/linkedin.png" alt=""> </li> </a>
+          </ul>
+        </div>
+      </div>
+    </li>
+   </ul>
+   <ul class="team-nav">
+     <li id="team-preview"> &lt; </li>
+     <li id="team-next"> &gt; </li>
+   </ul>
+  </div>
+ </div>
+</article>
+
+<!-- - - -
+TESTIMONIALS- -
+-------------->
+<article class="testimonial article-padding center animation" data-animation="slideInUp" id="Testimonials">
+  <div class="testimonial-header">
+    <h1 class="white">Clien Testimonials</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+  </div>
+
+  <ul class="testimonial-carousel">
+    <li> <img class="teamMember" src="img/team/member1.png" alt="">
+    <p class="name"> John Doe </p>
+    <p class="position"> Web Designer </p>
+    <blockquote > <img src="img\icons\comma.png" alt=""> <i>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <img src="img\icons\comma.png" alt=""> </i>
+    </blockquote>
+    </li>
+    <li> <img class="teamMember" src="img/team/member3.png" alt="">
+    <p class="name"> John Doe </p>
+    <p class="position"> Web Designer </p>
+    <blockquote > <img src="img\icons\comma.png" alt=""> <i>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <img src="img\icons\comma.png" alt=""> </i>
+    </blockquote>
+    </li>
+    <li> <img class="teamMember" src="img/team/member2.png" alt="">
+    <p class="name"> John Doe </p>
+    <p class="position"> Web Designer </p>
+    <blockquote > <img src="img\icons\comma.png" alt=""> <i>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <img src="img\icons\comma.png" alt=""> </i>
+    </blockquote>
+    </li>
+  </ul>
+
+  <ul class="testipager">
+    <li> <a href=""><img src="img\carousel-icon\done.png" alt="">  </a> </li>
+    <li> <a href=""><img src="img\carousel-icon\done.png" alt=""> </a></li>
+    <li> <a href=""><img src="img\carousel-icon\done.png" alt=""></a> </li>
+  </ul>
+</article>
+
+<!-- - - -
+    BLOG
+------------->
+
+<article class="article-padding blog animation" data-animation="zoomIn">
+  <div class="blog-header center">
+    <h1>Recent Posts From Blog</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="img/blog/post1.png" alt="post1" class="img-responsive">
+        <h3> <a class="secondary-sky-blue" href="#"> Water Flowing </a></h3>
+        <p class="post-description"><i>By  <span class="primary"><b> Lina</b></i></span> <b class="date">15 Dec 2018</b></p>
+        <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="img/blog/post2.png" alt="post2" class="img-responsive">
+        <h3> <a class="secondary-sky-blue" href="#"> Awesome City </a></h3>
+        <p class="post-description"><i>By  <span class="primary"><b> Paulius Ke</b></i></span> <b class="date">22 Dec 2018</b></p>
+        <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="img/blog/post3.png" alt="post3" class="img-responsive">
+        <h3> <a class="secondary-sky-blue" href="#"> Beautiful Sky </a></h3>
+        <p class="post-description"><i>By  <span class="primary"><b> Tadas</b></i></span> <b class="date">04 Jun 2018</b></p>
+        <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- - - - - - - - -
+                   CONTACTS
+--------------------->
+<article class="article-padding contact" id="Contact">
+  <div class="contact-header center animation" data-animation="swing">
+    <h1 class="white">Contact Us</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+  </div>
+
+  <form class="contact-form animation" data-animation="rotateIn" action="index.html" method="post">
+    <fieldset>
+      <input type="text" id="name" placeholder="Name">
+    </fieldset>
+    <fieldset>
+      <input type="email" id="email" placeholder="Email">
+    </fieldset>
+    <fieldset>
+      <input type="subject" id="subject" placeholder="Subject Only">
+    </fieldset>
+    <fieldset>
+      <textarea id="message" rows="7" cols="30" placeholder="message"> </textarea>
+    </fieldset>
+    <fieldset>
+      <input type="submit" id="submit" value="Send">
+    </fieldset>
+  </form>
+</article>
+
+<!-- FOOTER -->
+<footer class="footer-padding">
+  <div class="container">
+    <div class="row animation" data-animation="fadeInLeft">
+      <div class="col-md-4">
+        <h1>About Corporate</h1>
+        <p class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p> <span class="contact-email">  <img src="img/footer/email.png" alt=""> <i> Pauliuswebcoding@gmail.com </i> </span> </p>
+        <p> <span class="contact-phone"> <img src="img/footer/phone.png" alt=""><i> +321 54 444 89 </i> </span> </p>
+        <p> <span class="contact-location"> <img src="img/footer/location-arrow.png" alt=""> <i>56 Zibuokliu, Vilnius</i> </span> </p>
+      </div>
+
+      <div class="col-md-4">
+        <h1>Get Blog Updates</h1>
+        <form class="update-form">
+          <fieldset>
+            <input type="text" id="take-email" placeholder="Enter Your Email Here">
+          </fieldset>
+          <fieldset>
+            <input type="submit" id="submit-button" value="Sign up">
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="col-md-4">
+        <h1>Stay In Touch</h1>
+        <ul class="footer-social-links">
+          <li> <a href="#"> <img src="img/footer/facebook.png" alt=""> </a>
+          </li>
+          <li> <a href="#"> <img src="img/footer/google-plus.png" alt=""> </a>
+          </li>
+          <li> <a href="#"> <img src="img/footer/twitter.png" alt=""> </a>
+          </li>
+          <li> <a href="#"> <img src="img/footer/pinterest.png" alt=""> </a>
+          </li>
+          <li> <a href="#"> <img src="img/footer/youtube.png" alt=""> </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p> Copyright <span class="primary"> &copy; Corporate</span> 2018 . All Rights Reserved. </p>
+  </div>
+</footer>
+
+
+        <!-- bootstrap4 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- !!! jQuery "slim" yra nepilna versija ir jQuery kai kurios komandos neveikia, reiktu isisdeti kita jQuery  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- carouFredSel jQuery Plugin-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/caroufredsel.js"> </script>
+
+        <!-- SlickNav Js -->
+        <script type="text/javascript" src="js/jquery.slicknav.min.js"> </script>
+        <!--WAYPOINT.JS-->
+        <script type="text/javascript" src="js/jquery.waypoints.min.js"> </script>
+        <!--Smooth SCroll Plugin-->
+        <script type="text/javascript" src="js/smoothScroll.js"> </script>
+        <!--Pace plugin. Loading efektas-->
+        <script src="js/pace.js"></script>
+
+        <!--  mano js failas visada zemiausias -->
+        <script type="text/javascript" src="main.js"> </script>
+      </div>
+    </body>
+</html>

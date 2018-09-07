@@ -1,0 +1,158 @@
+
+.slicknav_menu{
+  display: none;
+}
+@media (max-width: 512px){
+  .slider-carousel{
+    position: relative;
+  }
+  .slider-carousel li{
+    position: absolute;
+    top: 0%;
+  }
+}
+
+/* Responsive Header*/
+@media (max-width: 992px){
+
+span.slicknav_menutxt{
+  font-size: 0;
+}
+header{
+  margin-top: -112px;
+  background-color: #34495e;
+}
+.slider{
+  margin-top: 112px;
+}
+
+.slicknav_menu{
+  display: inline-block;
+  position: fixed;
+  background: rgba(0,0,0,0);
+  z-index: 1000;
+  right: 0px;
+  margin-top: -112px;
+}
+
+#menu{
+  display: none;
+}
+
+.slicknav_btn{
+  background-color: #e74c3c;
+  margin: 35px 30px 0 0;
+}
+
+.slicknav_nav{
+  background-color: #2e4155;
+  width: 200px;
+}
+
+.slicknav_nav li{
+  margin: 0;
+  padding: 0;
+  height: 3em;
+  line-height: 3em;
+  width: 200px;
+  border-bottom: 1px solid #2e4155;
+  border-top: 1px solid #3d5267;
+  text-align: center;
+}
+
+.slicknav_nav li a{
+  margin: 0;
+  padding: 0;
+}
+
+.slicknav_nav li a:hover{
+  color: #e74c3c;
+  background-color: rgba(0,0,0,0);
+}
+/* Responsive Slider*/
+.slider,.slider ul.slider-carousel, .slider ul.slider-carousel li{
+  height: 550px;
+}
+
+.slider ul.slider-carousel li h1{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+/*RESPONSIVE ARTICLE - SERVICES */
+.services-header h1{
+  margin-bottom: 30px;
+}
+article.no-padding{
+  padding: 0px;
+}
+/* RESPONSIVE PORTFOLIO-OUR WORK*/
+.portfolio-carousel p{
+  font-size: 12px;
+}
+.portfolio-carousel h3{
+  font-size: 16px;
+}
+
+.portfolio .inner-content .overlay-content{
+  width: 200px;
+  height: 180px;
+}
+
+}
+
+@media (max-width:420px){
+   .slider ul li a{
+    display: block;
+ 		padding: 0;
+ 		width: 50%;
+ 		margin: 0 100px;
+}
+  .slider ul.slider-carousel li h1
+	{
+		margin-top: -80px;
+		margin-bottom: 30px;
+	}
+  h1{
+    font-size: 24px;
+  }
+  .slider ul li a.cta1{
+    margin-bottom: 15px;
+  }
+
+}
+
+@media (max-width:800px){
+  .portfolio-carousel h3{
+    font-size: 12px;
+  }
+
+  .portfolio .inner-content{
+    width: 180px;
+    height: 150px;
+  }
+
+
+}
+
+@media (max-width:771px){
+  .portfolio-carousel p{
+    font-size: 16px;
+  }
+  .portfolio-carousel h3{
+    font-size: 20px;
+  }
+}
+
+/* OUR TEAM*/
+@media (max-width: 1214px){
+  p.description{
+    display: none;
+  }
+}
+
+@media (max-width: 752px){
+  p.description{
+    display: block;
+  }
+}
