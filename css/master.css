@@ -416,10 +416,12 @@ input:not([id=submit]){
   background-color: #ff695a;
   border: none;
   font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 #submit:hover{
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
   background-color: #ff695a;
   border-radius: 15px;
 }
@@ -460,10 +462,12 @@ form.update-form input:not([id=submit-button]){ /* visa textarea padaro 100% plo
   font-weight: bold;
   height: 40px;
   line-height: 40px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 #submit-button:hover{
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
   background-color: #ff695a;
   border-radius: 15px;
 }
